@@ -4,7 +4,7 @@ from rest_framework import viewsets
 from .models import *
 from .serializers import *
 
-class CategoryView(viewsets.ViewSet):
+class CategoryViewSet(viewsets.ViewSet):
     queryset = Category.objects.all()
     
     def list(self,request):
