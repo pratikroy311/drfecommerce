@@ -5,4 +5,5 @@ drfecommerce/.pytest_cache
 **__pycache__/
 .coverage
 .vscode
+schema.yml
 
